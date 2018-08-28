@@ -1,0 +1,49 @@
+### YamlMime:Tutorial
+title: <span data-ttu-id="ba108-101">Skapa en serverfri webbapp i Azure</span><span class="sxs-lookup"><span data-stu-id="ba108-101">Build a serverless web app in Azure</span></span>
+metadata:
+  title: Skapa en serverfri webbapp i Azure | Microsoft Docs
+  description: I den här självstudien får du lära dig att publicera en statisk webbapp med serverfria Azure-komponenter för att ladda upp, analysera och ändra bilder.
+  audience: Developer
+  level: Intermediate
+  displayType: two-column
+  interactive: azurecli
+  author: ggailey777
+  manager: cfowler
+  ms.service: multiple
+  ms.topic: interactive-tutorial
+  ms.date: 06/22/2018
+  ms.author: glenga
+  ms.openlocfilehash: d0bd4c0b4b1a6995e2d5148a4f49769aee0f4dc7
+  ms.sourcegitcommit: f96b5b10238122db9506f1a7c7f53ace9b28c293
+  ms.translationtype: HT
+  ms.contentlocale: sv-SE
+  ms.lasthandoff: 08/24/2018
+  ms.locfileid: "40079560"
+items:
+- durationInMinutes: 1
+  content: >
+    [!INCLUDE [](./includes/intro.md)]
+- title: <span data-ttu-id="ba108-104">Skapa en webbapp i Azure Blob Storage</span><span class="sxs-lookup"><span data-stu-id="ba108-104">Create a web app in Azure Blob storage</span></span>
+  durationInMinutes: 12
+  content: >
+    [!INCLUDE [](./includes/static-site.md)]
+- title: <span data-ttu-id="ba108-105">Ladda upp bilder till Blob Storage med Azure Functions</span><span class="sxs-lookup"><span data-stu-id="ba108-105">Upload images to Blob storage with Azure Functions</span></span>
+  durationInMinutes: 20
+  content: "[!INCLUDE [](./includes/upload-images.md)] \n"
+- title: <span data-ttu-id="ba108-106">Ändra storlek på bilder med Azure Functions</span><span class="sxs-lookup"><span data-stu-id="ba108-106">Resize images with Azure Functions</span></span>
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/resize-images.md)]
+- title: <span data-ttu-id="ba108-107">Lagra bildmetadata med Azure Cosmos DB</span><span class="sxs-lookup"><span data-stu-id="ba108-107">Store image metadata with Azure Cosmos DB</span></span>
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/store-images.md)]
+- title: <span data-ttu-id="ba108-108">Lägg till nya bildtexter med API för visuellt innehåll</span><span class="sxs-lookup"><span data-stu-id="ba108-108">Add image captions with Computer Vision</span></span>
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/computer-vision.md)]
+- title: <span data-ttu-id="ba108-109">Lägg till autentisering</span><span class="sxs-lookup"><span data-stu-id="ba108-109">Add authentication</span></span>
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/authentication.md)]
+- content: '[!INCLUDE [](includes/completed.md)]'
