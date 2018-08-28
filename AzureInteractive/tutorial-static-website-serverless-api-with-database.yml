@@ -1,0 +1,49 @@
+### YamlMime:Tutorial
+title: Skapa en serverfri webbapp i Azure
+metadata:
+  title: Skapa en serverfri webbapp i Azure | Microsoft Docs
+  description: I den här självstudien får du lära dig att publicera en statisk webbapp med serverfria Azure-komponenter för att ladda upp, analysera och ändra bilder.
+  audience: Developer
+  level: Intermediate
+  displayType: two-column
+  interactive: azurecli
+  author: ggailey777
+  manager: cfowler
+  ms.service: multiple
+  ms.topic: interactive-tutorial
+  ms.date: 06/22/2018
+  ms.author: glenga
+  ms.openlocfilehash: d0bd4c0b4b1a6995e2d5148a4f49769aee0f4dc7
+  ms.sourcegitcommit: f96b5b10238122db9506f1a7c7f53ace9b28c293
+  ms.translationtype: HT
+  ms.contentlocale: sv-SE
+  ms.lasthandoff: 08/24/2018
+  ms.locfileid: "40079560"
+items:
+- durationInMinutes: 1
+  content: >
+    [!INCLUDE [](./includes/intro.md)]
+- title: Skapa en webbapp i Azure Blob Storage
+  durationInMinutes: 12
+  content: >
+    [!INCLUDE [](./includes/static-site.md)]
+- title: Ladda upp bilder till Blob Storage med Azure Functions
+  durationInMinutes: 20
+  content: "[!INCLUDE [](./includes/upload-images.md)] \n"
+- title: Ändra storlek på bilder med Azure Functions
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/resize-images.md)]
+- title: Lagra bildmetadata med Azure Cosmos DB
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/store-images.md)]
+- title: Lägg till nya bildtexter med API för visuellt innehåll
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/computer-vision.md)]
+- title: Lägg till autentisering
+  durationInMinutes: 15
+  content: >
+    [!INCLUDE [](includes/authentication.md)]
+- content: '[!INCLUDE [](includes/completed.md)]'
