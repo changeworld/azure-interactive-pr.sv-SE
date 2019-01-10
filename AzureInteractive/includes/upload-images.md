@@ -49,7 +49,7 @@ För funktionsappen i den här självstudien krävs version 1.x av körmiljön f
 I följande Azure CLI-kommando är <app_name> namnet på funktionsappen.
 
 ```azurecli
-az functionapp config appsettings set --name <function app name> --g first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
+az functionapp config appsettings set --name <function app name> -g first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
 ```
 
 ## <a name="create-an-http-triggered-serverless-function"></a>Skapa en HTTP-utlöst serverlös funktion
